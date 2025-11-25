@@ -26,10 +26,10 @@ export default function Footer() {
         {/* Brand Message */}
         <div className="fade-item space-y-4">
           <h2 className="text-2xl font-semibold tracking-tight">
-            Cixo Studio
+            PixelPulse Studio
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Cixo Studio crafts bold digital experiences blending design, motion,
+            PixelPulse Studio crafts bold digital experiences blending design, motion,
             and development into memorable, high-impact results.
           </p>
 
@@ -62,7 +62,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4 tracking-tight">Hello</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
             <li className="hover:text-white transition cursor-pointer">
-              info@cixo.studio
+              info@PixelPulse.studio
             </li>
             <li className="leading-relaxed">
               Suite 408, Alserkal Avenue,
