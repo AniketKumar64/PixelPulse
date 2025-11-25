@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Akony";
+  src: url("/fonts/Akony.woff2");
+}
+@font-face {
+  font-family: "main2";
+  src: url("/fonts/main.woff2");
+}
+
+
+@theme {
+  --color-black: ##0A0A0A;
+  --color-main-bg: #232224;
+  --color-white: #ffffff;
+  --color-dark-brown: #523122;
+  --color-mid-brown: #a26833;
+  --color-light-brown: #e3a458;
+  --color-red-brown: #7f3b2d;
+  --color-yellow-brown: #a26833;
+  --color-milk-yellow: #e3d3bc;
+  --color-red: #a02128;
+  --color-milk: #faeade;
+  --font-sans: "Antonio", sans-serif;
+  --font-paragraph: "ProximaNova, sans-serif";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0A0A0A;
+  color: #ffffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: main2;
+
+}
+
+/*  */
+
+h1{
+  font-family: "Akony";
+}
+p{
+  font-family: "main2";
+}
