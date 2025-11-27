@@ -53,9 +53,7 @@ const Works = () => {
                         <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold text-white mb-8">
                             Explore <br /> Works
                         </h1>
-                        <button className='absolute bottom-0 left-0  text-sm  text-white border border-white px-4 py-2 rounded-md  hover:bg-white hover: transition-all   '>
-                            explore works
-                        </button>
+                       
                     </div>
                 </div>
 

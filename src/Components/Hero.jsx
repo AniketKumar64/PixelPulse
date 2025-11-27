@@ -55,8 +55,8 @@ const Hero = () => {
         style={{ transformOrigin: 'center center' }} // Ensure scaling from center
       >
         <img
-          src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?q=80&w=2070&auto=format&fit=crop"
-          alt="Hero Background"
+src="https://wallpaperaccess.com/full/4050056.jpg"        
+  alt="Hero Background"
           className="w-full h-full object-cover"
         />
       </div>

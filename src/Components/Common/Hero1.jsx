@@ -24,6 +24,7 @@ const Hero1 = () => {
       });
 
       tl.to(imageRef.current, {
+        opacity: 0.3,
         scale: 1,
         width: "100%",
         height: "100%",
@@ -56,9 +57,7 @@ const Hero1 = () => {
         style={{ transformOrigin: "center center" }}
       >
         <img
-          src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?q=80&w=2070&auto=format&fit=crop"
-          alt="Hero Background"
-          className="w-full h-full object-cover"
+src="https://wallpapers.com/images/hd/mercedes-benz-4k-376xvbcp07l8a4ts.jpg"          className="w-full h-full opacity-100 object-cover"
         />
       </div>
 
@@ -67,15 +66,17 @@ const Hero1 = () => {
         className="absolute z-20 text-center opacity-0 translate-y-10 pointer-events-none mix-blend-difference"
       >
         <h1 className="text-6xl md:text-9xl font-bold text-white tracking-tighter uppercase">
-          Cixo Studio
+          Mercedes Benz
+        
+          AMG GT
         </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mt-4 font-light tracking-widest">
+        <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mt-4 font-light tracking-widest">
           Beyond Limits
         </p>
       </div>
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white animate-bounce z-20 mix-blend-difference">
-        <span className="text-sm uppercase tracking-widest">Scroll to Explore</span>
+        <p className="text-md uppercase tracking-widest">Scroll to Explore</p>
       </div>
     </div>
   );

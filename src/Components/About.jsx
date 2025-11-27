@@ -28,17 +28,17 @@ const About = () => {
             type: "words",
           });
           gsap.to(firstmsgsplit.words,{
-            color:"#faeade",
+            color:"#ffffff",
             stagger:1,
             ease:"power1.in",
-            delay:0.5,
+            delay:0.9,
             scrollTrigger:{
                 trigger:".title",
                 toggleActions:"play reverse play reverse",
-                start:"top center",
-                end:"30% center",
+                start:"top bottom",
+                end:"  59% bottom",
                 scrub:true,
-                markers:true,
+                // markers:true,
             },
           });
     })
@@ -51,7 +51,7 @@ const About = () => {
 </p>
 
 <div className="flex flex-col gap-12  justify-between">
-    <p  className='title lg:text-5xl  text-[2.6rem] text-[#F9F9F9] leading-12 tracking-tighter '>
+    <p  className='title lg:text-5xl  text-[2.6rem] text-[#000000] leading-12 tracking-tighter '>
         Cixo Studio, founded in Dubai, thrives on redefining design with creativity and precision. We specialize in motion graphics, web design, and branding. We aim to push design beyond limits.
     </p>
     <div className="flex justify-between  mt-8">
