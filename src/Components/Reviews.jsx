@@ -62,20 +62,20 @@ const items = [
     
 
   return (
-     <section ref={triggerRef} className="overflow-hidden min-h-screen bg-black">
-            <div ref={sectionRef} className="flex flex-col  lg:p-8 p-4 my-20 mx-auto lg:max-w-[95%] w-fit">
-    
-   <section className="min-h-screen bg-black p-10">
-      <div className="text-center flex flex-col gap-10  text-white mb-20">
-        <p className="text-2xl text-[#d4d3d3]">[ Testimonials ]</p>
-        <h1 className="text-8xl  tracking-tight leading-[0.8]">Client <br /> Reviews</h1>
+     <section ref={triggerRef} className="overflow-hidden max-h-screen bg-black">
+            <div ref={sectionRef} className="flex flex-col gap-4  lg:p-8 p-4  mx-auto w-full lg:max-w-[95%] ">
+     <div className="text-center flex flex-col md:gap-10 gap-2 text-white md:mb-20">
+        <p className="text-xl text-[#d4d3d3]">[ Testimonials ]</p>
+        <h1 className="md:text-7xl text-4xl  tracking-tight leading-[0.8]">Client <br /> Reviews</h1>
       </div>
+   <section className="min-h-screen bg-black pt-10 md:p-10">
+     
 <FadeWrapper>
       <Marquee speed={50} direction="left" className="gap-5">
         {items.map((item, i) => (
           <div
             key={i}
-            className="min-w-[400px] service-item group relative p-8 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-600 transition-colors overflow-hidden flex  gap-6 text-black  flex-col"
+            className=" md:min-w-[400px] service-item group relative p-8 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-600 transition-colors overflow-hidden flex  gap-6 text-black  flex-col"
           >
                     <div className={`absolute inset-0 bg-gradient-to-br ${item.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl`} />
 

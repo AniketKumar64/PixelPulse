@@ -74,9 +74,9 @@ export default function Projects() {
     <section ref={containerRef} className="overflow-hidden bg-black">
       <div
         ref={sectionRef}
-        className="flex lg:p-8 p-4 my-20 mx-auto lg:max-w-[75%] h-screen w-fit"
+        className="flex lg:p-8 p-4 md:my-20 mx-auto lg:max-w-[75%] h-screen w-fit"
       >
-        <div className="w-screen h-full flex flex-col gap-4 bg-zinc-950 p-10">
+        <div className="w-screen h-full flex flex-col gap-4 bg-zinc-950 md:p-10">
           <p className="text-2xl text-[#d4d3d3]">
             <span>[</span> Services <span>]</span>
           </p>

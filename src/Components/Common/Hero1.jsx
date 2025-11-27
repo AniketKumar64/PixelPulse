@@ -63,9 +63,21 @@ src="https://wallpapers.com/images/hd/mercedes-benz-4k-376xvbcp07l8a4ts.jpg"    
 
       <div
         ref={textRef}
-        className="absolute z-20 text-center opacity-0 translate-y-10 pointer-events-none mix-blend-difference"
+        className="absolute hidden md:flex md:flex-col z-20 text-center opacity-0 translate-y-10 pointer-events-none mix-blend-difference"
       >
-        <h1 className="text-6xl md:text-8xl font-bold text-white tracking-tighter uppercase">
+        <h1 className="text-4xl md:text-8xl font-bold text-white tracking-tighter uppercase">
+          Mercedes Benz <br />
+          AMG GT
+        </h1>
+        <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mt-4 font-light tracking-widest">
+          Beyond Limits
+        </p>
+      </div>
+        <div
+        
+        className="absolute md:hidden  z-20 text-center opacity-100 translate-y-10 pointer-events-none mix-blend-difference"
+      >
+        <h1 className="text-4xl md:text-8xl font-bold text-white tracking-tighter uppercase">
           Mercedes Benz <br />
           AMG GT
         </h1>

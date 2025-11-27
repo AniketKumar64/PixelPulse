@@ -51,21 +51,21 @@ const About = () => {
 </p>
 
 <div className="flex flex-col gap-12  justify-between">
-    <p  className='title lg:text-5xl  text-[2.6rem] text-[#000000] leading-12 tracking-tighter '>
+    <p  className='title lg:text-5xl  p-2  text-4xl md:text-[2.6rem] text-[#000000] leading-12 tracking-tighter '>
         Cixo Studio, founded in Dubai, thrives on redefining design with creativity and precision. We specialize in motion graphics, web design, and branding. We aim to push design beyond limits.
     </p>
-    <div className="flex justify-between  mt-8">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4   mt-8">
         {works.map(work => (
-            <div key={work.id} className="text-center flex flex-col gap-2">
-                <p className="text-8xl ">{work.number}</p>
+            <div key={work.id} className="text-center flex flex-col gap-4 md:gap-2 ">
+                <p className="md:text-8xl text-5xl ">{work.number}</p>
                 <p className="text-[#747474] text-xl ">{work.title}</p>
             </div>
         ))}
     </div>
     <div className="border-t border-[#171717] flex items-center justify-between py-7 ">
-        <p className='text-[#6b6868] text-lg w-[45%] '>Transforming your visions into stunning digital <br /> realities with innovation and expertise!</p>
+        <p className='text-[#6b6868] text-lg md:w-[45%] '>Transforming your visions into stunning digital <br /> realities with innovation and expertise!</p>
 
-        <p className='text-white uppercase text-xl '>learn MOre</p>
+        <p className='text-white/80 hover:text-[#ffffff] uppercase text-xl '>learn MOre</p>
     </div>
 
   
@@ -76,7 +76,7 @@ const About = () => {
 
 </div>
 
-<div className="relative w-full overflow-hidden py-10">
+<div className="relative w-full overflow-hidden py-4 md:py-10">
 
   {/* LEFT BLUR FADE */}
     <div className="pointer-events-none absolute left-0 top-0 h-full w-40 z-20 

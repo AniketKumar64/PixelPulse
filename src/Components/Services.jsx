@@ -2,15 +2,7 @@ import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import {
-  Target,
-  Search,
-  FileSpreadsheet,
-  Palette,
-  Hammer,
-  Sparkles,
-  Rocket
-} from "lucide-react";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,17 +70,19 @@ const Services = () => {
     return (
        <section
   ref={Serciccesref}
-  className="py-32 relative container mx-auto md:px-4 bg-black overflow-hidden"
+  className="md:py-32 py-10 px-1 relative container mx-auto md:px-4 bg-black overflow-hidden"
 >
+         <div className="text-center flex flex-col md:gap-10 gap-2 text-white md:mb-20">
+        <h1 className="md:text-7xl text-4xl  tracking-tight leading-[1]">Behind MY <br /> Process</h1>
+      </div>
   {/* Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[800px] bg-blue-900/10 rounded-full blur-3xl" />
             </div>
 
-            <div className=" flex   relative z-10">
-                <div ref={titleRef} className="text-left w-[30%] mb-20">
-                    <p className='text-xl mb-8'>[Our Process
-]</p>
+            <div className=" flex flex-col md:flex-row  relative z-10">
+                <div ref={titleRef} className="md:text-left  w-[30%] mb-5 md:mb-20">
+                    <p className='text-xl hidden md:flex text-center mb-2 md:mb-8'>[Our Process]</p>
                    
                    
                 </div>
@@ -101,7 +95,7 @@ const Services = () => {
                         >
                             <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl`} />
 
-                            <div className="flex items-center justify-between w-full">
+                            <div className="flex flex-col md:flex-row md:text-left text-center items-center justify-between w-full">
                                 <div className="relative z-10 shrink-0">
                                 <div className="p-4 text-8xl inline-block   group-hover:scale-110 transition-transform duration-300">
                                     {/* {service.icon} */}

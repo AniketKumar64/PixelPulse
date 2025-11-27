@@ -15,7 +15,7 @@ const App = () => {
 
 
   return (
-    <div className="">
+    <div className="px-2">
     
         <Routes>
           <Route path='/' element={<Home />} />

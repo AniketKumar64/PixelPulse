@@ -22,7 +22,7 @@ export default function Footer() {
       ref={footerRef}
       className="bg-black text-white py-24 px-6 md:px-20 border-t border-zinc-800"
     >
-      <div className="max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="max-w-[80%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-12">
         {/* Brand Message */}
         <div className="fade-item space-y-4">
           <h2 className="text-2xl font-semibold tracking-tight">
